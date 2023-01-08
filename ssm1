@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Social Media Agency</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      header a {
+        color: white;
+        text-decoration: none;
+      }
+      header a:hover {
+        color: #ccc;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .service {
+        width: 30%;
+        margin-bottom: 20px;
+      }
+      .service img {
+        width: 100%;
+      }
+      .service h3 {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+      .service p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Social Media Agency</h1>
+      <nav>
+        <a href="#">Home</a> |
+        <a href="#">Services</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <h2>Welcome to Our Social Media Agency</h2>
+      <p>We help businesses grow their online presence through social media marketing and management.</p>
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service">
+          <img src="social-media-marketing.jpg" alt="Social media marketing">
+          <h3>Social Media Marketing</h3>
+          <p>We develop and execute social media marketing campaigns to reach and engage your target audience.</p>
+        </div>
+        <div class="service">
+          <img src="social-media-management.jpg" alt="Social media management">
+          <h3>Social Media Management</h3>
+          <p>We manage your social media accounts on a daily basis, creating and scheduling posts and engaging with your followers.</p>
+        </div>
+        <div class="service">
+          <img src="social-media-advertising.jpg" alt="Social media advertising">
+          <h3>Social Media Advertising</h3>
+          <p>We create and manage social media advertising campaigns to reach specific goals, such as increasing website traffic or generating leads.</p>
+        </div>
+      </div>
+    </div>
